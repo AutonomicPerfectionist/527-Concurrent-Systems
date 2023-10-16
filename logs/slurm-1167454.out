@@ -1,0 +1,47 @@
+cp: cannot create regular file '/work/instruction/coms-527-f23/butler1/527-Concurrent-Systems/.git/objects/pack/pack-c84562c2e916bd637fcb3cd77f22ef9b298d4ad7.pack': Permission denied
+cp: cannot create regular file '/work/instruction/coms-527-f23/butler1/527-Concurrent-Systems/.git/objects/pack/pack-c84562c2e916bd637fcb3cd77f22ef9b298d4ad7.idx': Permission denied
+Available devices: [<torch.cuda.device object at 0x154255e7eef0>, <torch.cuda.device object at 0x154255e7fdc0>, <torch.cuda.device object at 0x154255e7fd60>, <torch.cuda.device object at 0x154255e7fd00>]
+Files already downloaded and verified
+Files already downloaded and verified
+Epoch  0 finished training
+Accuracy of the network on the 10000 test images: 26 %
+Epoch  1 finished training
+Accuracy of the network on the 10000 test images: 28 %
+Epoch  2 finished training
+Accuracy of the network on the 10000 test images: 30 %
+Epoch  3 finished training
+Accuracy of the network on the 10000 test images: 32 %
+Epoch  4 finished training
+Accuracy of the network on the 10000 test images: 33 %
+Epoch  5 finished training
+Accuracy of the network on the 10000 test images: 33 %
+Epoch  6 finished training
+Accuracy of the network on the 10000 test images: 34 %
+Epoch  7 finished training
+Accuracy of the network on the 10000 test images: 35 %
+Epoch  8 finished training
+Accuracy of the network on the 10000 test images: 35 %
+Epoch  9 finished training
+Accuracy of the network on the 10000 test images: 36 %
+Epoch  10 finished training
+Accuracy of the network on the 10000 test images: 36 %
+Epoch  11 finished training
+Accuracy of the network on the 10000 test images: 37 %
+Epoch  12 finished training
+Accuracy of the network on the 10000 test images: 38 %
+Epoch  13 finished training
+Accuracy of the network on the 10000 test images: 38 %
+Epoch  14 finished training
+Accuracy of the network on the 10000 test images: 38 %
+Epoch  15 finished training
+Accuracy of the network on the 10000 test images: 39 %
+Epoch  16 finished training
+Accuracy of the network on the 10000 test images: 40 %
+Epoch  17 finished training
+Accuracy of the network on the 10000 test images: 39 %
+Epoch  18 finished training
+Accuracy of the network on the 10000 test images: 40 %
+Epoch  19 finished training
+Accuracy of the network on the 10000 test images: 40 %
+---------- Training finshed ----------
+Time: 223.85641407966614

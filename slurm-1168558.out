@@ -1,0 +1,33 @@
+cp: cannot create regular file '/work/instruction/coms-527-f23/butler1/527-Concurrent-Systems/.git/objects/pack/pack-c84562c2e916bd637fcb3cd77f22ef9b298d4ad7.pack': Permission denied
+cp: cannot create regular file '/work/instruction/coms-527-f23/butler1/527-Concurrent-Systems/.git/objects/pack/pack-c84562c2e916bd637fcb3cd77f22ef9b298d4ad7.idx': Permission denied
+Available devices: [<torch.cuda.device object at 0x14ea21e3b0a0>, <torch.cuda.device object at 0x14ea21e3b100>, <torch.cuda.device object at 0x14ea21e3b1c0>, <torch.cuda.device object at 0x14ea21e3b310>]
+Files already downloaded and verified
+Files already downloaded and verified
+Traceback (most recent call last):
+  File "/work/instruction/coms-527-f23/butler1/527-Concurrent-Systems/main.py", line 97, in <module>
+    training_step(model, trainloader, epoch, device)
+  File "/work/instruction/coms-527-f23/butler1/527-Concurrent-Systems/src/trainer.py", line 28, in training_step
+    outputs = model(inputs)
+  File "/opt/python310/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1501, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/work/instruction/coms-527-f23/butler1/527-Concurrent-Systems/main.py", line 48, in forward
+    x = self.encoder_first(x).to('cuda:1')
+  File "/opt/python310/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1501, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/opt/python310/lib/python3.10/site-packages/torch/nn/modules/container.py", line 217, in forward
+    input = module(input)
+  File "/opt/python310/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1501, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/opt/python310/lib/python3.10/site-packages/torch/nn/modules/container.py", line 217, in forward
+    input = module(input)
+  File "/opt/python310/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1501, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/opt/python310/lib/python3.10/site-packages/torchvision/models/vision_transformer.py", line 113, in forward
+    x, _ = self.self_attention(x, x, x, need_weights=False)
+  File "/opt/python310/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1501, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/opt/python310/lib/python3.10/site-packages/torch/nn/modules/activation.py", line 1189, in forward
+    attn_output, attn_output_weights = F.multi_head_attention_forward(
+  File "/opt/python310/lib/python3.10/site-packages/torch/nn/functional.py", line 5337, in multi_head_attention_forward
+    attn_output = linear(attn_output, out_proj_weight, out_proj_bias)
+RuntimeError: Expected all tensors to be on the same device, but found at least two devices, cuda:1 and cuda:0! (when checking argument for argument mat1 in method wrapper_CUDA_addmm)
